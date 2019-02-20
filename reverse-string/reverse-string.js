@@ -1,6 +1,5 @@
-export const reverseString = string => {
-  return string
+export const reverseString = string =>
+  string
     .split('')
     .reverse()
     .join('');
-};
